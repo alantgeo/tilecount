@@ -1,0 +1,17 @@
+{
+  "name": "tilecount",
+  "version": "1.0.0",
+  "description": "Counts web map tiles within a Polygon(s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Harvey <andrew@alantgeo.com.au>",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/sphericalmercator": "^1.1.0",
+    "@turf/bbox": "^6.0.1",
+    "@turf/bbox-polygon": "^6.0.1",
+    "@turf/boolean-intersects": "^6.0.2"
+  }
+}
